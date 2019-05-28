@@ -1,0 +1,25 @@
+{
+  "name": "proxy-kathleen",
+  "version": "1.0.0",
+  "description": "Kathleen's proxy server for FEC",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kayjayhogan/proxy-Kathleen.git"
+  },
+  "author": "Kathleen Hogan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kayjayhogan/proxy-Kathleen/issues"
+  },
+  "homepage": "https://github.com/kayjayhogan/proxy-Kathleen#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.0",
+    "http-proxy-middleware": "^0.19.1",
+    "nodemon": "^1.19.1"
+  }
+}
