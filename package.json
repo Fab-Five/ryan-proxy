@@ -4,7 +4,8 @@
   "description": "Kathleen's proxy server for FEC",
   "main": "server/index.js",
   "scripts": {
-    "start": "nodemon server/index.js"
+    "start": "node server/index.js",
+    "build": "webpack -p"
   },
   "repository": {
     "type": "git",
