@@ -2,7 +2,7 @@ const express = require ('express');
 const proxy = require('http-proxy-middleware');
 const cors = require('cors');
 const path = require('path');
-const PORT = 4000;
+const PORT = process.env.PORT || 4000;
 
 const app = express();
 
